@@ -4,7 +4,7 @@
 
 [日本語版はこちら / Japanese](README.ja.md)
 
-Curated quantum computing resources — SDKs, simulators, error correction, optimization and annealing, applications, HPC integration, post-quantum cryptography, cloud services and learning material, with an engineering (CAE/HPC) angle. ⭐ badges show live GitHub star counts (via shields.io); release badges show the date of the latest GitHub release (YYYY/MM/DD, as of the last refresh).
+Curated quantum computing resources — SDKs, simulators, error correction, optimization and annealing, applications, HPC integration, post-quantum cryptography, cloud services and learning material, with an engineering (CAE/HPC) angle. ⭐ badges show live GitHub star counts (via shields.io); release badges show the date of the latest GitHub release (YYYY/MM/DD, as of the last refresh); last-commit badges show live commit activity (via shields.io).
 
 ## Index
 
@@ -30,52 +30,52 @@ General-purpose toolkits for building, transpiling and running quantum circuits 
 IBM-led open-source SDK (Python/Rust/C) for circuits, operators and primitives; the most widely used quantum SDK. IBM Quantum hardware is accessed via qiskit-ibm-runtime.
 
 - https://www.ibm.com/quantum/qiskit
-- https://github.com/Qiskit/qiskit ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F22-blue?style=flat)
-- https://github.com/Qiskit/qiskit-ibm-runtime ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-ibm-runtime?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F22-blue?style=flat)
+- https://github.com/Qiskit/qiskit ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F22-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Qiskit/qiskit?style=flat)
+- https://github.com/Qiskit/qiskit-ibm-runtime ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-ibm-runtime?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F22-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Qiskit/qiskit-ibm-runtime?style=flat)
 
 ### Cirq
 Google Quantum AI's Python framework for NISQ circuits, with fine-grained control over gates, moments and device constraints.
 
 - https://quantumai.google/cirq
-- https://github.com/quantumlib/Cirq ![GitHub stars](https://img.shields.io/github/stars/quantumlib/Cirq?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F30-blue?style=flat)
+- https://github.com/quantumlib/Cirq ![GitHub stars](https://img.shields.io/github/stars/quantumlib/Cirq?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F30-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/quantumlib/Cirq?style=flat)
 
 ### PennyLane / Catalyst
 Xanadu's differentiable quantum programming platform (QML, chemistry, optimization) with JAX/PyTorch integration; Catalyst adds JIT compilation of hybrid programs (MLIR/QIR).
 
 - https://pennylane.ai/
-- https://github.com/PennyLaneAI/pennylane ![GitHub stars](https://img.shields.io/github/stars/PennyLaneAI/pennylane?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F26-blue?style=flat)
-- https://github.com/PennyLaneAI/catalyst ![GitHub stars](https://img.shields.io/github/stars/PennyLaneAI/catalyst?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F05%2F12-blue?style=flat)
+- https://github.com/PennyLaneAI/pennylane ![GitHub stars](https://img.shields.io/github/stars/PennyLaneAI/pennylane?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F26-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/PennyLaneAI/pennylane?style=flat)
+- https://github.com/PennyLaneAI/catalyst ![GitHub stars](https://img.shields.io/github/stars/PennyLaneAI/catalyst?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F05%2F12-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/PennyLaneAI/catalyst?style=flat)
 
 ### CUDA-Q
 NVIDIA's C++/Python programming model for hybrid quantum-classical workflows, running on GPU simulators, multi-GPU clusters and many QPU backends.
 
 - https://developer.nvidia.com/cuda-q
-- https://github.com/NVIDIA/cuda-quantum ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/cuda-quantum?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F12-blue?style=flat)
+- https://github.com/NVIDIA/cuda-quantum ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/cuda-quantum?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F12-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/NVIDIA/cuda-quantum?style=flat)
 
 ### Microsoft Quantum Development Kit (QDK)
 Q# language, resource estimator, OpenQASM support and Quantum Katas tutorials in one repository (successor of the archived microsoft/Quantum samples).
 
 - https://learn.microsoft.com/azure/quantum/
-- https://github.com/microsoft/qdk ![GitHub stars](https://img.shields.io/github/stars/microsoft/qdk?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F06-blue?style=flat)
+- https://github.com/microsoft/qdk ![GitHub stars](https://img.shields.io/github/stars/microsoft/qdk?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F06-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/microsoft/qdk?style=flat)
 
 ### Amazon Braket SDK
 Python SDK for Amazon Braket — run circuits and analog Hamiltonian simulations on multiple vendors' QPUs and managed simulators.
 
-- https://github.com/amazon-braket/amazon-braket-sdk-python ![GitHub stars](https://img.shields.io/github/stars/amazon-braket/amazon-braket-sdk-python?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F23-blue?style=flat)
+- https://github.com/amazon-braket/amazon-braket-sdk-python ![GitHub stars](https://img.shields.io/github/stars/amazon-braket/amazon-braket-sdk-python?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F23-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/amazon-braket/amazon-braket-sdk-python?style=flat)
 
 ### TKET
 Quantinuum's retargetable quantum compiler (C++ core, pytket Python API) with circuit optimisation passes and many hardware backends.
 
 - https://docs.quantinuum.com/tket/
-- https://github.com/Quantinuum/tket ![GitHub stars](https://img.shields.io/github/stars/Quantinuum/tket?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat)
+- https://github.com/Quantinuum/tket ![GitHub stars](https://img.shields.io/github/stars/Quantinuum/tket?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Quantinuum/tket?style=flat)
 
 ### pyQuil / Yao.jl / Tequila / qBraid
 Rigetti's Quil-based Python library (pyQuil); extensible Julia framework for quantum algorithm design (Yao.jl); high-level abstraction for variational algorithms (Tequila); platform-agnostic runtime and transpiler between SDKs (qBraid).
 
-- https://github.com/rigetti/pyquil ![GitHub stars](https://img.shields.io/github/stars/rigetti/pyquil?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat)
-- https://github.com/QuantumBFS/Yao.jl ![GitHub stars](https://img.shields.io/github/stars/QuantumBFS/Yao.jl?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F03%2F01-blue?style=flat)
-- https://github.com/tequilahub/tequila ![GitHub stars](https://img.shields.io/github/stars/tequilahub/tequila?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F05-blue?style=flat)
-- https://github.com/qBraid/qBraid ![GitHub stars](https://img.shields.io/github/stars/qBraid/qBraid?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F02-blue?style=flat)
+- https://github.com/rigetti/pyquil ![GitHub stars](https://img.shields.io/github/stars/rigetti/pyquil?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/rigetti/pyquil?style=flat)
+- https://github.com/QuantumBFS/Yao.jl ![GitHub stars](https://img.shields.io/github/stars/QuantumBFS/Yao.jl?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F03%2F01-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/QuantumBFS/Yao.jl?style=flat)
+- https://github.com/tequilahub/tequila ![GitHub stars](https://img.shields.io/github/stars/tequilahub/tequila?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F05-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/tequilahub/tequila?style=flat)
+- https://github.com/qBraid/qBraid ![GitHub stars](https://img.shields.io/github/stars/qBraid/qBraid?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F02-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qBraid/qBraid?style=flat)
 
 ---
 
@@ -86,36 +86,36 @@ Classical simulation of quantum circuits and many-body systems — state-vector,
 ### Qiskit Aer
 High-performance circuit simulator with realistic noise models, GPU and MPI support.
 
-- https://github.com/Qiskit/qiskit-aer ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-aer?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F20-blue?style=flat)
+- https://github.com/Qiskit/qiskit-aer ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-aer?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F20-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Qiskit/qiskit-aer?style=flat)
 
 ### NVIDIA cuQuantum
 GPU libraries for state-vector (cuStateVec), tensor-network (cuTensorNet) and density-matrix simulation; used as a backend by Qiskit Aer, Cirq/qsim, PennyLane and CUDA-Q.
 
 - https://developer.nvidia.com/cuquantum-sdk
-- https://github.com/NVIDIA/cuQuantum ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/cuQuantum?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F10-blue?style=flat)
+- https://github.com/NVIDIA/cuQuantum ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/cuQuantum?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F10-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/NVIDIA/cuQuantum?style=flat)
 
 ### Qulacs
 Fast C++/Python variational circuit simulator developed in Japan (Osaka University / QunaSys origin).
 
-- https://github.com/qulacs/qulacs ![GitHub stars](https://img.shields.io/github/stars/qulacs/qulacs?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F29-blue?style=flat)
+- https://github.com/qulacs/qulacs ![GitHub stars](https://img.shields.io/github/stars/qulacs/qulacs?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F29-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qulacs/qulacs?style=flat)
 
 ### qsim / QuEST
 Google's optimized state-vector simulator integrated with Cirq (qsim); multithreaded, distributed and GPU-accelerated simulator from Oxford (QuEST).
 
-- https://github.com/quantumlib/qsim ![GitHub stars](https://img.shields.io/github/stars/quantumlib/qsim?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F06%2F24-blue?style=flat)
-- https://github.com/QuEST-Kit/QuEST ![GitHub stars](https://img.shields.io/github/stars/QuEST-Kit/QuEST?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F24-blue?style=flat)
+- https://github.com/quantumlib/qsim ![GitHub stars](https://img.shields.io/github/stars/quantumlib/qsim?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F06%2F24-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/quantumlib/qsim?style=flat)
+- https://github.com/QuEST-Kit/QuEST ![GitHub stars](https://img.shields.io/github/stars/QuEST-Kit/QuEST?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F24-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/QuEST-Kit/QuEST?style=flat)
 
 ### QuTiP
 Quantum Toolbox in Python — open quantum systems, master equations, quantum optics and pulse-level dynamics.
 
 - https://qutip.org/
-- https://github.com/qutip/qutip ![GitHub stars](https://img.shields.io/github/stars/qutip/qutip?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F04-blue?style=flat)
+- https://github.com/qutip/qutip ![GitHub stars](https://img.shields.io/github/stars/qutip/qutip?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F04-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qutip/qutip?style=flat)
 
 ### quimb / ITensors.jl
 Tensor-network libraries for quantum information, circuit simulation and many-body physics (DMRG, MPS, PEPS) in Python (quimb) and Julia (ITensors.jl).
 
-- https://github.com/jcmgray/quimb ![GitHub stars](https://img.shields.io/github/stars/jcmgray/quimb?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F10-blue?style=flat)
-- https://github.com/ITensor/ITensors.jl ![GitHub stars](https://img.shields.io/github/stars/ITensor/ITensors.jl?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F27-blue?style=flat)
+- https://github.com/jcmgray/quimb ![GitHub stars](https://img.shields.io/github/stars/jcmgray/quimb?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F10-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/jcmgray/quimb?style=flat)
+- https://github.com/ITensor/ITensors.jl ![GitHub stars](https://img.shields.io/github/stars/ITensor/ITensors.jl?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F27-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/ITensor/ITensors.jl?style=flat)
 
 ---
 
@@ -126,19 +126,19 @@ Tools for quantum error correction (QEC) research, error mitigation on today's n
 ### Stim / PyMatching
 Very fast stabilizer-circuit simulator and sampler for QEC experiments (Stim); minimum-weight perfect matching decoder for surface codes and other QEC codes (PyMatching).
 
-- https://github.com/quantumlib/Stim ![GitHub stars](https://img.shields.io/github/stars/quantumlib/Stim?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F05%2F22-blue?style=flat)
-- https://github.com/oscarhiggott/PyMatching ![GitHub stars](https://img.shields.io/github/stars/oscarhiggott/PyMatching?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F09%2F25-blue?style=flat)
+- https://github.com/quantumlib/Stim ![GitHub stars](https://img.shields.io/github/stars/quantumlib/Stim?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F05%2F22-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/quantumlib/Stim?style=flat)
+- https://github.com/oscarhiggott/PyMatching ![GitHub stars](https://img.shields.io/github/stars/oscarhiggott/PyMatching?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F09%2F25-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/oscarhiggott/PyMatching?style=flat)
 
 ### Mitiq
 Unitary Foundation's toolkit for error mitigation (zero-noise extrapolation, probabilistic error cancellation, etc.) across most quantum SDKs and hardware.
 
 - https://mitiq.readthedocs.io/
-- https://github.com/unitaryfoundation/mitiq ![GitHub stars](https://img.shields.io/github/stars/unitaryfoundation/mitiq?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F04-blue?style=flat)
+- https://github.com/unitaryfoundation/mitiq ![GitHub stars](https://img.shields.io/github/stars/unitaryfoundation/mitiq?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F04-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/unitaryfoundation/mitiq?style=flat)
 
 ### Qualtran
 Google's library for expressing and analysing fault-tolerant quantum algorithms, including qubit and T-gate resource estimation.
 
-- https://github.com/quantumlib/Qualtran ![GitHub stars](https://img.shields.io/github/stars/quantumlib/Qualtran?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F01%2F22-blue?style=flat)
+- https://github.com/quantumlib/Qualtran ![GitHub stars](https://img.shields.io/github/stars/quantumlib/Qualtran?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F01%2F22-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/quantumlib/Qualtran?style=flat)
 
 ---
 
@@ -150,18 +150,18 @@ QUBO / Ising formulations, quantum annealers and quantum-inspired solvers for co
 Python tools for formulating problems (BQM/CQM, dimod) and solving them on D-Wave quantum annealers, hybrid solvers or classical samplers.
 
 - https://docs.dwavequantum.com/
-- https://github.com/dwavesystems/dwave-ocean-sdk ![GitHub stars](https://img.shields.io/github/stars/dwavesystems/dwave-ocean-sdk?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F15-blue?style=flat)
+- https://github.com/dwavesystems/dwave-ocean-sdk ![GitHub stars](https://img.shields.io/github/stars/dwavesystems/dwave-ocean-sdk?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F15-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/dwavesystems/dwave-ocean-sdk?style=flat)
 
 ### OpenJij / PyQUBO
 Japanese open-source Ising/QUBO framework with simulated and simulated-quantum annealing (OpenJij, by Jij); DSL for building QUBOs from mathematical expressions (PyQUBO, by Recruit).
 
-- https://github.com/Jij-Inc/OpenJij ![GitHub stars](https://img.shields.io/github/stars/Jij-Inc/OpenJij?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F19-blue?style=flat)
-- https://github.com/recruit-communications/pyqubo ![GitHub stars](https://img.shields.io/github/stars/recruit-communications/pyqubo?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2022%2F12%2F13-blue?style=flat)
+- https://github.com/Jij-Inc/OpenJij ![GitHub stars](https://img.shields.io/github/stars/Jij-Inc/OpenJij?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F19-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Jij-Inc/OpenJij?style=flat)
+- https://github.com/recruit-communications/pyqubo ![GitHub stars](https://img.shields.io/github/stars/recruit-communications/pyqubo?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2022%2F12%2F13-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/recruit-communications/pyqubo?style=flat)
 
 ### Simulated Bifurcation
 CPU/GPU (PyTorch) implementation of the Simulated Bifurcation algorithm — a quantum-inspired Ising/QUBO solver originally proposed by Toshiba.
 
-- https://github.com/bqth29/simulated-bifurcation-algorithm ![GitHub stars](https://img.shields.io/github/stars/bqth29/simulated-bifurcation-algorithm?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F04%2F10-blue?style=flat)
+- https://github.com/bqth29/simulated-bifurcation-algorithm ![GitHub stars](https://img.shields.io/github/stars/bqth29/simulated-bifurcation-algorithm?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F04%2F10-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/bqth29/simulated-bifurcation-algorithm?style=flat)
 
 ---
 
@@ -172,18 +172,18 @@ Application libraries for electronic-structure problems, quantum machine learnin
 ### OpenFermion / Qiskit Nature
 Compile and analyse quantum algorithms for electronic structure and fermionic systems (OpenFermion); Qiskit framework for chemistry, physics and other natural-science problems (Qiskit Nature).
 
-- https://github.com/quantumlib/OpenFermion ![GitHub stars](https://img.shields.io/github/stars/quantumlib/OpenFermion?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F17-blue?style=flat)
-- https://github.com/qiskit-community/qiskit-nature ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/qiskit-nature?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F01-blue?style=flat)
+- https://github.com/quantumlib/OpenFermion ![GitHub stars](https://img.shields.io/github/stars/quantumlib/OpenFermion?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F17-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/quantumlib/OpenFermion?style=flat)
+- https://github.com/qiskit-community/qiskit-nature ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/qiskit-nature?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F01-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qiskit-community/qiskit-nature?style=flat)
 
 ### Qiskit SQD addon
 Sample-based Quantum Diagonalization — classically post-processes noisy quantum samples (often on HPC) to estimate eigenvalues for chemistry problems.
 
-- https://github.com/Qiskit/qiskit-addon-sqd ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-addon-sqd?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat)
+- https://github.com/Qiskit/qiskit-addon-sqd ![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-addon-sqd?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/Qiskit/qiskit-addon-sqd?style=flat)
 
 ### Qiskit Machine Learning
 Quantum kernels, quantum neural networks and PyTorch integration for QML experiments on simulators and hardware.
 
-- https://github.com/qiskit-community/qiskit-machine-learning ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/qiskit-machine-learning?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F19-blue?style=flat)
+- https://github.com/qiskit-community/qiskit-machine-learning ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/qiskit-machine-learning?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F19-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qiskit-community/qiskit-machine-learning?style=flat)
 
 ---
 
@@ -194,13 +194,13 @@ Integrating quantum processors with HPC centres and exploring quantum algorithms
 ### QRMI / Slurm SPANK plugins
 Vendor-agnostic Quantum Resource Management Interface for on-prem or cloud QPUs (QRMI, Rust/Python/C) and Slurm plugins to schedule quantum resources as part of HPC jobs.
 
-- https://github.com/qiskit-community/qrmi ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/qrmi?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F23-blue?style=flat)
-- https://github.com/qiskit-community/spank-plugins ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/spank-plugins?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat)
+- https://github.com/qiskit-community/qrmi ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/qrmi?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F23-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qiskit-community/qrmi?style=flat)
+- https://github.com/qiskit-community/spank-plugins ![GitHub stars](https://img.shields.io/github/stars/qiskit-community/spank-plugins?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/qiskit-community/spank-plugins?style=flat)
 
 ### OQTOPUS
 Open Quantum Toolchain for OPerators & USers — open-source software architecture for operating cloud quantum computers, developed in Japan (Osaka University and partners).
 
-- https://github.com/oqtopus-team/oqtopus-cloud ![GitHub stars](https://img.shields.io/github/stars/oqtopus-team/oqtopus-cloud?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F11-blue?style=flat)
+- https://github.com/oqtopus-team/oqtopus-cloud ![GitHub stars](https://img.shields.io/github/stars/oqtopus-team/oqtopus-cloud?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F11-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/oqtopus-team/oqtopus-cloud?style=flat)
 
 ### Quantum CFD research
 EU Horizon project QCFD (quantum algorithms for computational fluid dynamics) and TUHH's research page on quantum CFD.
@@ -218,7 +218,7 @@ Preparing classical systems for quantum-capable adversaries.
 C library of quantum-resistant KEMs and signatures (including the NIST ML-KEM / ML-DSA standards) for prototyping and integration into TLS/SSH.
 
 - https://openquantumsafe.org/
-- https://github.com/open-quantum-safe/liboqs ![GitHub stars](https://img.shields.io/github/stars/open-quantum-safe/liboqs?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F09-blue?style=flat)
+- https://github.com/open-quantum-safe/liboqs ![GitHub stars](https://img.shields.io/github/stars/open-quantum-safe/liboqs?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F09-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/open-quantum-safe/liboqs?style=flat)
 
 ### NIST PQC
 NIST's post-quantum cryptography standardization project (FIPS 203/204/205).
@@ -259,15 +259,15 @@ Free, official learning paths.
 
 ## Related lists
 
-- https://github.com/desireevl/awesome-quantum-computing ![GitHub stars](https://img.shields.io/github/stars/desireevl/awesome-quantum-computing?style=flat&label=%E2%AD%90) — quantum computing learning & developing resources
-- https://github.com/qosf/awesome-quantum-software ![GitHub stars](https://img.shields.io/github/stars/qosf/awesome-quantum-software?style=flat&label=%E2%AD%90) — open-source quantum software projects
-- https://github.com/krishnakumarsekar/awesome-quantum-machine-learning ![GitHub stars](https://img.shields.io/github/stars/krishnakumarsekar/awesome-quantum-machine-learning?style=flat&label=%E2%AD%90) — quantum machine learning basics, algorithms and materials
-- https://github.com/artix41/awesome-quantum-ml ![GitHub stars](https://img.shields.io/github/stars/artix41/awesome-quantum-ml?style=flat&label=%E2%AD%90) — quantum machine learning papers
-- https://github.com/veorq/awesome-post-quantum ![GitHub stars](https://img.shields.io/github/stars/veorq/awesome-post-quantum?style=flat&label=%E2%AD%90) — post-quantum cryptography
-- https://github.com/francois-marie/awesome-quantum-computing-experiments ![GitHub stars](https://img.shields.io/github/stars/francois-marie/awesome-quantum-computing-experiments?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F07%2F15-blue?style=flat) — database of notable quantum experiments (QEC focus)
-- https://github.com/poig/Qc_book_list ![GitHub stars](https://img.shields.io/github/stars/poig/Qc_book_list?style=flat&label=%E2%AD%90) — books for self-studying quantum computing
-- https://github.com/shvyac/awesome-hpc ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hpc?style=flat&label=%E2%AD%90) — HPC tools (schedulers, MPI, GPU)
-- https://github.com/shvyac/awesome-open-source-solvers ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90) — open-source FEM/CFD/scientific solvers
+- https://github.com/desireevl/awesome-quantum-computing ![GitHub stars](https://img.shields.io/github/stars/desireevl/awesome-quantum-computing?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/desireevl/awesome-quantum-computing?style=flat) — quantum computing learning & developing resources
+- https://github.com/qosf/awesome-quantum-software ![GitHub stars](https://img.shields.io/github/stars/qosf/awesome-quantum-software?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/qosf/awesome-quantum-software?style=flat) — open-source quantum software projects
+- https://github.com/krishnakumarsekar/awesome-quantum-machine-learning ![GitHub stars](https://img.shields.io/github/stars/krishnakumarsekar/awesome-quantum-machine-learning?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/krishnakumarsekar/awesome-quantum-machine-learning?style=flat) — quantum machine learning basics, algorithms and materials
+- https://github.com/artix41/awesome-quantum-ml ![GitHub stars](https://img.shields.io/github/stars/artix41/awesome-quantum-ml?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/artix41/awesome-quantum-ml?style=flat) — quantum machine learning papers
+- https://github.com/veorq/awesome-post-quantum ![GitHub stars](https://img.shields.io/github/stars/veorq/awesome-post-quantum?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/veorq/awesome-post-quantum?style=flat) — post-quantum cryptography
+- https://github.com/francois-marie/awesome-quantum-computing-experiments ![GitHub stars](https://img.shields.io/github/stars/francois-marie/awesome-quantum-computing-experiments?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F07%2F15-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/francois-marie/awesome-quantum-computing-experiments?style=flat) — database of notable quantum experiments (QEC focus)
+- https://github.com/poig/Qc_book_list ![GitHub stars](https://img.shields.io/github/stars/poig/Qc_book_list?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/poig/Qc_book_list?style=flat) — books for self-studying quantum computing
+- https://github.com/shvyac/awesome-hpc ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hpc?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/shvyac/awesome-hpc?style=flat) — HPC tools (schedulers, MPI, GPU)
+- https://github.com/shvyac/awesome-open-source-solvers ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/shvyac/awesome-open-source-solvers?style=flat) — open-source FEM/CFD/scientific solvers
 - https://awesome.re/ — Awesome manifesto
 
 ---
