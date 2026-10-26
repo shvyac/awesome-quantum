@@ -15,6 +15,7 @@
 - [耐量子暗号](#耐量子暗号)
 - [クラウド量子サービス](#クラウド量子サービス)
 - [学習リソース](#学習リソース)
+- [日本語の学習教材](#日本語の学習教材)
 - [関連リスト](#関連リスト)
 - [shvyac の awesome リスト](#shvyac-の-awesome-リスト)
 
@@ -252,6 +253,48 @@ QPU でジョブを実行するための主要なクラウド窓口。
 - https://github.com/microsoft/qdk/tree/main/katas — Microsoft Quantum Katas(QDK リポジトリ内)
 - https://quantum.country/ — Quantum Country(Matuschak と Nielsen による記憶定着型エッセイ)
 - https://qosf.org/ — Quantum Open Source Foundation(メンタリング、プロジェクト一覧)
+
+---
+
+## 日本語の学習教材
+
+日本の大学・高専の学生向けの、日本語で読める無料の量子教材。
+
+### 量子技術高等教育拠点(Quantum Academy)
+国立情報学研究所(NII)が東京大学・名古屋大学・九州大学・慶應義塾大学と運営する教育拠点。オンライン講義、オープンな教材データベース(CC BY-SA)、標準カリキュラムを提供(Q-LEAP 人材育成プログラム)。学部〜大学院レベル。
+
+- https://qacademy.jp/
+- https://www.nii.ac.jp/news/upload/nii_newsrelease_20230612.pdf — 教材データベース公開に関する NII プレスリリース
+
+### 東京大学 量子技術教育プログラム(QEd)
+量子ハードウェアごとの講義動画と資料:光量子計算・光量子通信、イオントラップ、光原子時計、冷却原子量子シミュレーション、浮揚電子、核磁気共鳴(NMR)。
+
+- https://ch.u-tokyo.ac.jp/series/?id=DAPjNC3oaALB — UTokyo Channel
+- https://ocw.u-tokyo.ac.jp/lecture_files/11447/1/notes/ja/QEd_introduction.pdf — イントロダクション資料
+
+### Quantum Native Dojo
+QunaSys による無料の自習教材。量子コンピュータの基礎から NISQ アルゴリズム、誤り訂正までを Google Colab で動く Jupyter ノートブックで学べる(学部レベルの数学が前提)。講談社から書籍版も刊行。
+
+- https://dojo.qulacs.org/ja/latest/
+- https://github.com/qulacs/quantum-native-dojo ![GitHub stars](https://img.shields.io/github/stars/qulacs/quantum-native-dojo?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/qulacs/quantum-native-dojo?style=flat)
+
+### Quantum Tokyo
+日本の Qiskit コミュニティ。IBM Quantum Learning の講座(「量子情報の基礎」など)の日本語訳、Qiskit 入門、Qiskit Global Summer School の資料をまとめている。
+
+- https://quantum-tokyo.github.io/introduction/intro.html
+- https://github.com/quantum-tokyo/introduction ![GitHub stars](https://img.shields.io/github/stars/quantum-tokyo/introduction?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/quantum-tokyo/introduction?style=flat)
+
+### アニーリング・最適化のチュートリアル
+イジング模型、QUBO/HUBO、組合せ最適化、量子アニーリングの日本語チュートリアル。
+
+- https://tutorial.openjij.org/ja/intro.html — OpenJij Book(Jij)
+- https://amplify.fixstars.com/ja/demo — Fixstars Amplify オンラインデモ&チュートリアル(無料登録が必要)
+
+### 量子力学の基礎
+日本語で学べる物理の基礎。
+
+- https://eman-physics.net/quantum/contents.html — EMANの量子力学(学部物理レベル、個人サイト)
+- https://ocw.kyoto-u.ac.jp/ — 京都大学 OCW(講義動画・資料、CC BY-NC-SA)
 
 ---
 

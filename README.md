@@ -17,6 +17,7 @@ Curated quantum computing resources — SDKs, simulators, error correction, opti
 - [Post-quantum cryptography](#post-quantum-cryptography)
 - [Cloud quantum services](#cloud-quantum-services)
 - [Learning resources](#learning-resources)
+- [Japanese learning resources](#japanese-learning-resources)
 - [Related lists](#related-lists)
 - [shvyac's awesome lists](#shvyacs-awesome-lists)
 
@@ -254,6 +255,48 @@ Free, official learning paths.
 - https://github.com/microsoft/qdk/tree/main/katas — Microsoft Quantum Katas (in the QDK repository)
 - https://quantum.country/ — Quantum Country (spaced-repetition essays by Matuschak & Nielsen)
 - https://qosf.org/ — Quantum Open Source Foundation (mentorship, project lists)
+
+---
+
+## Japanese learning resources
+
+Free Japanese-language quantum materials for students at Japanese universities and colleges (日本語の教材).
+
+### Quantum Academy of Science and Technology (量子技術高等教育拠点)
+University-level hub run by NII with the University of Tokyo, Nagoya, Kyushu and Keio universities — online lectures, an open materials database (CC BY-SA) and a standard curriculum, undergraduate to graduate level (Q-LEAP program).
+
+- https://qacademy.jp/
+- https://www.nii.ac.jp/news/upload/nii_newsrelease_20230612.pdf — NII press release on the open materials database
+
+### UTokyo Quantum Education for Future Technologies (QEd)
+University of Tokyo lecture series with videos and slides on quantum hardware platforms: photonic quantum computing and communication, trapped ions, optical lattice clocks, cold-atom quantum simulation, electrons on helium and NMR.
+
+- https://ch.u-tokyo.ac.jp/series/?id=DAPjNC3oaALB — UTokyo Channel
+- https://ocw.u-tokyo.ac.jp/lecture_files/11447/1/notes/ja/QEd_introduction.pdf — introduction slides
+
+### Quantum Native Dojo
+QunaSys's free self-study course from quantum-computing basics to NISQ algorithms and error correction, as Jupyter notebooks runnable on Google Colab (undergraduate math background). Also published as a book by Kodansha.
+
+- https://dojo.qulacs.org/ja/latest/
+- https://github.com/qulacs/quantum-native-dojo ![GitHub stars](https://img.shields.io/github/stars/qulacs/quantum-native-dojo?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/qulacs/quantum-native-dojo?style=flat)
+
+### Quantum Tokyo
+Japanese Qiskit community — Japanese translations of IBM Quantum Learning courses (e.g. Basics of Quantum Information), Qiskit getting-started guides and Qiskit Global Summer School materials.
+
+- https://quantum-tokyo.github.io/introduction/intro.html
+- https://github.com/quantum-tokyo/introduction ![GitHub stars](https://img.shields.io/github/stars/quantum-tokyo/introduction?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/quantum-tokyo/introduction?style=flat)
+
+### Annealing & optimization tutorials
+Japanese tutorials on Ising models, QUBO/HUBO, combinatorial optimization and quantum annealing.
+
+- https://tutorial.openjij.org/ja/intro.html — OpenJij Book (Jij)
+- https://amplify.fixstars.com/ja/demo — Fixstars Amplify online demos & tutorials (free registration)
+
+### Quantum mechanics foundations
+Background physics in Japanese.
+
+- https://eman-physics.net/quantum/contents.html — EMAN's Quantum Mechanics (undergraduate physics, personal site)
+- https://ocw.kyoto-u.ac.jp/ — Kyoto University OCW (lecture videos and notes, CC BY-NC-SA)
 
 ---
 
